@@ -1,0 +1,34 @@
+{
+  "name": "levelGraphttp",
+  "version": "0.0.1",
+  "description": "Http API for levelgraph (https://github.com/mcollina/levelgraph)",
+  "license": "MIT",
+  "author": "Luciano Colosio <unlucio@gmail.com>",
+  "main": "api.js",
+  "scripts": {
+    "test": "mocha --recursive -t 10000 -R spec",
+    "start": "node api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unlucio/levelGraphttp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unlucio/levelGraphttp/issues"
+  },
+  "keywords": [
+    "leveldb, levelgraph"
+  ],
+  "dependencies": {
+    "debug": "latest",
+    "express": "latest",
+    "levelgraph": "~0.6.11"
+  },
+  "devDependencies": {
+    "mocha": "latest"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }
+}
